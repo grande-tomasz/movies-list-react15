@@ -1,0 +1,42 @@
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app,
+#app > div,
+#app > div li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#app > div {
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+#app li {
+  padding: 1rem 0;
+  list-style-type: none;
+}
+
+#app img {
+  max-width: 200px;
+  max-height: 300px;
+}
+
+#app p {
+  padding: 0.5rem 0;
+}
