@@ -63,10 +63,8 @@ body {
 }
 
 #app img {
-  /* float: left; */
   margin-right: 1rem;
   max-width: 300px;
-  /* max-height: 100px; */
 }
 
 #app p,
